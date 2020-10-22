@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    height: 800px;
+    width: 100%;
+    background-color: #c17eca;
+}
+
+.content1, .content2, .content3 {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content1 {
+    width: 35%;
+    background-color: #fefaf8;
+}
+
+.content2 {
+    width: 30%;
+    background-image: url(demo-1.jpg);
+    position: relative;
+}
+
+.content2 img {
+    position: absolute;
+    top: 150px;
+}
+
+.content2 h1 {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    margin-left: -142.56px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(237, 217, 247);
+    font: 30px/80px 'Book Antiqua', Times, serif;
+}
+
+.content3 {
+    width: 35%;
+    background-color: #fefaf8;
+}
+
+.intro {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 2px solid #c17eca;
+    border-bottom: 2px solid #c17eca;
+}
+
+.intro .mask {
+    position: relative;
+    background-color: rgba(0, 0, 0, .85);
+    width: 100%;
+    height: 1400px;
+}
+
+.intro-p {
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    color: white;
+    line-height: 50px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.intro-p strong {
+    color: #bc9bfe;
+    font-size: 25px;
+    line-height: 200px;
+}
